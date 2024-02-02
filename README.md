@@ -1,6 +1,3 @@
-Certainly! Below is a README.md file for your project based on the provided code:
-
-```markdown
 # Stock Price Prediction with Machine Learning
 
 ## Overview
