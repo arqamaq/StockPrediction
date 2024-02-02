@@ -18,13 +18,14 @@ Run the Jupyter Notebook or Python script to execute the code.
 ##Data
 The dataset is loaded from a CSV file containing historical stock data of Amazon (AMZN). The file path can be customized as needed.
 
-##Exploratory Data Analysis (EDA)
+## Exploratory Data Analysis (EDA)
 The dataset is explored through various visualizations, including line plots, distribution plots, and box plots.
 Date features are extracted from the 'Date' column, and additional features like quarter-end indicators are created.
-##Feature Engineering
+
+## Feature Engineering
 New features such as 'open-close' and 'low-high' are generated based on existing columns.
 A binary target variable is created to indicate whether the stock price will increase (1) or decrease (0) on the next day.
-##Model Training
+## Model Training
 StandardScaler is applied to scale the features.
 The dataset is split into training and validation sets.
 Logistic Regression, Support Vector Machine (SVM), and XGBoost models are trained and evaluated.
@@ -34,8 +35,4 @@ Confusion matrices are visualized using seaborn heatmap for Logistic Regression.
 Contributing
 Feel free to contribute to this project by opening issues or submitting pull requests. Please follow the code of conduct.
 
-##License
-This project is licensed under the MIT License - see the LICENSE file for details.
 
-Acknowledgments
-Special thanks to the developers of scikit-learn, XGBoost, and other libraries used in this project.
