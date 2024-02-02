@@ -36,10 +36,7 @@ The dataset is loaded from a CSV file containing historical stock data of Amazon
 
 - The models are evaluated using ROC AUC score on both the training and validation sets.
 - Confusion matrices are visualized using seaborn heatmap for Logistic Regression.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+- Having said that due to the oversimplfication of the model as well as the limitation of data, this model is not effective
 
 ## Acknowledgments
 
